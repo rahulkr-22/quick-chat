@@ -20,7 +20,7 @@ import group_icon1 from "../group_icon1.png";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "http://localhost:5000"; //-> After deployment
+const ENDPOINT = "https://quick-chat-54s1.onrender.com"; //-> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
